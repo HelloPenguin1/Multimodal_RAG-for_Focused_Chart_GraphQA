@@ -1,0 +1,34 @@
+# Core ML/AI Libraries
+torch>=2.0.0
+transformers>=4.35.0
+sentence-transformers>=2.2.2
+
+# LangChain Framework (Core)
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-openai>=0.0.5 
+
+# PDF Processing
+PyMuPDF>=1.23.0  # aka fitz, for PDF to image conversion
+pdf2image>=1.16.3
+pypdf>=3.17.0
+Pillow>=10.0.0
+
+# Vector Database & Retrieval
+faiss-cpu>=1.7.4  # Use faiss-gpu if you have CUDA
+numpy>=1.24.0
+
+# LLM Integration
+openai>=1.3.0  # For GPT-4, GPT-3.5 APIs
+# anthropic>=0.7.0  # Uncomment if using Claude
+
+# Frontend
+streamlit>=1.28.0
+
+# Utilities
+python-dotenv>=1.0.0  # For API key management
+pandas>=2.0.0
+tqdm>=4.66.0  # Progress bars
+
+#OCR
+chandra-ocr
